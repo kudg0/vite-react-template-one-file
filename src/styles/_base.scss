@@ -1,0 +1,35 @@
+/* ВКЛЮЧАЕМ ПЕРЕНОСЫ В ТЕКСТЕ */
+.hyphens_on {
+  word-wrap: normal;
+  hyphens: normal;
+}
+/* OVER */
+
+/* ВЫКЛЮЧАЕМ ПЕРЕНОСЫ В ТЕКСТЕ */
+.hyphens_off {
+  word-wrap: none;
+  -webkit-word-wrap: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+/* OVER */
+
+/* ВКЛЮЧАЕМ POSITION СТИКИ НА ЭЛЕМЕНТЕ  */
+.sticky {
+  position: sticky !important;
+}
+/* OVER  */
+
+/* ВЫКЛЮЧАЕМ ВОЗОЖНОСТЬ ВЫДЕЛЕНИЯ НА ЭЛЕМЕНТЕ  */
+.noselect {
+  user-select: none;
+}
+/* OVER  */
+/* ВЫКЛЮЧАЕМ ВОЗОЖНОСТЬ draggable НА ЭЛЕМЕНТЕ  */
+.noDraggble {
+  user-drag: none;
+  -webkit-user-drag: none;
+}
+/* OVER  */

@@ -1,0 +1,34 @@
+@mixin font-face($fontFamily, $fontWeight, $fontFamilySrc, $fontFamilySrcFormat) {
+  @font-face {
+    src: url('#{$fontFamilySrc}') format('#{$fontFamilySrcFormat}');
+    font-family: '#{$fontFamily}';
+    font-weight: '#{$fontWeight}';
+
+    font-display: swap;
+  }
+}
+
+@include font-face(
+  'Lato',
+  400,
+  'https://bg.ru/specials/4651-avito-1551/latoregular.woff2',
+  'woff2'
+);
+@include font-face(
+  'Lato',
+  500,
+  'https://bg.ru/specials/4651-avito-1551/latomedium.woff2',
+  'woff2'
+);
+@include font-face(
+  'Lato',
+  600,
+  'https://bg.ru/specials/4651-avito-1551/latomedium.woff2',
+  'woff2'
+);
+@include font-face(
+  'Lato',
+  700,
+  'https://bg.ru/specials/4651-avito-1551/latosemibold.woff2',
+  'woff2'
+);
